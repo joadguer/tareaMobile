@@ -12,22 +12,25 @@ public class NavigationTest extends BaseTest{
 
         // Navigate to WebScreen
         WebScreen webScreen = homeScreen.navigateToWebScreen();
-        // Perform actions/assertions for WebScreen
+
         // Navigate to LoginScreen
         LoginScreen loginScreen = webScreen.navigateToLoginScreen();
-        // Perform actions/assertions for LoginScreen
 
         // Navigate to FormScreen
         FormScreen formScreen = loginScreen.navigateToFormScreen();
-        // Perform actions/assertions for FormScreen
 
         // Navigate to SwipeScreen
         SwipeScreen swipeScreen = formScreen.navigateToSwipeScreen();
-        // Perform actions/assertions for SwipeScreen
 
         // Navigate to DragScreen
         DragScreen dragScreen = swipeScreen.navigateToDragScreen();
-        // Perform actions/assertions for DragScreen
+
+    }
+
+    @Test
+    public void signUp(){
+        // Start from the HomeScreen
+        ;
 
     }
 
