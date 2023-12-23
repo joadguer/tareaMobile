@@ -2,7 +2,7 @@
 <suite name="Suite1" verbose="1">
     <test name="MyTest" >
         <classes>
-            <class name="org.example.tests.BaseTest" />
+            <class name="com.exampleMobile.tests.BaseTest" />
         </classes>
     </test>
 </suite>

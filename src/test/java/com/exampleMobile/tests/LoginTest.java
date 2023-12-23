@@ -1,4 +1,4 @@
-package org.example.tests;
+package com.exampleMobile.tests;
 
 public class LoginTest extends BaseTest{
 }

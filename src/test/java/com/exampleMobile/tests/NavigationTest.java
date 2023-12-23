@@ -1,6 +1,6 @@
-package org.example.tests;
+package com.exampleMobile.tests;
 
-import org.example.screens.*;
+import com.exampleMobile.screens.*;
 import org.testng.annotations.Test;
 
 public class NavigationTest extends BaseTest{
@@ -24,13 +24,6 @@ public class NavigationTest extends BaseTest{
 
         // Navigate to DragScreen
         DragScreen dragScreen = swipeScreen.navigateToDragScreen();
-
-    }
-
-    @Test
-    public void signUp(){
-        // Start from the HomeScreen
-        ;
 
     }
 

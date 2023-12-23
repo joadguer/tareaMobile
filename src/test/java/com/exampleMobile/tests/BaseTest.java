@@ -1,8 +1,8 @@
-package org.example.tests;
+package com.exampleMobile.tests;
 
+import com.exampleMobile.screens.*;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
-import org.example.screens.*;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.FileInputStream;

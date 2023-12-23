@@ -1,4 +1,4 @@
-package org.example.screens;
+package com.exampleMobile.screens;
 
 import io.appium.java_client.android.AndroidDriver;
 
